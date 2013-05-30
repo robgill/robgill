@@ -40,8 +40,8 @@
 		<!--sticky nav script -->
 		<script type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/library/js/jquery.sticky.js"></script>
 	  <script>
-	    $(window).load(function(){
-	      $(".nav-wrapper").sticky({ topSpacing: 0 });
+	    jQuery(window).load(function(){
+	      jQuery(".nav-wrapper").sticky({ topSpacing: 0 });
 	    });
 	  </script>
 
